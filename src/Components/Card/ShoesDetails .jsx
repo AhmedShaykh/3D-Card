@@ -65,23 +65,23 @@ const NikeLogo = styled.div`
 `;
 
 function ShoesDetails() {
-    return (
-        <DetailsContainer>
-            <SmallText>NIKE</SmallText>
-            <SpacedHorizontalContainer>
-                <MediumText>AIR JORDAN 1 MID SE GC</MediumText>
-                <MediumText>¥856</MediumText>
-            </SpacedHorizontalContainer>
-            <Marginer direction="vertical" margin="1.2em" />
-            <SpacedHorizontalContainer>
-                <MediumText>YOUR NEXT SHOES</MediumText>
-                <BuyButton>BUY</BuyButton>
-            </SpacedHorizontalContainer>
-            <NikeLogo>
-                <img src={NikeImg} />
-            </NikeLogo>
-        </DetailsContainer>
-    )
+  return (
+    <DetailsContainer>
+      <SmallText>NIKE</SmallText>
+      <SpacedHorizontalContainer>
+        <MediumText>AIR JORDAN 1 MID SE GC</MediumText>
+        <MediumText>$ 856</MediumText>
+      </SpacedHorizontalContainer>
+      <Marginer direction="vertical" margin="1.2em" />
+      <SpacedHorizontalContainer>
+        <MediumText>YOUR NEXT SHOES</MediumText>
+        <BuyButton>BUY</BuyButton>
+      </SpacedHorizontalContainer>
+      <NikeLogo>
+        <img src={NikeImg} />
+      </NikeLogo>
+    </DetailsContainer>
+  )
 };
 
 export { ShoesDetails };
